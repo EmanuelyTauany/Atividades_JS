@@ -1,19 +1,15 @@
+function VOGAL(c){
+    const vogais = ["a", "e", "i", "o", "u"];
+    
+    alert(vogais.includes(c.toLowerCase())? 1 : 0)
+}
+
 document.getElementById("MyForm2").addEventListener("submit", function(event){
     event.preventDefault();
 
-    const c = document.getElementById("c").value.trim().toLowerCase();
+    const c = document.getElementById("char").value.trim().toLowerCase();
     console.log(c);
-    VOGAL(c);
-});
-
-function VOGAL(c){
-    const vogais = ["a", "e", "i", "o", "u"];
-
-        if(vogais.includes(c)){
-            alert(1);
-        }else{
-            alert(0);
-        }
     
-}
+    VOGAL(c);
 
+});
