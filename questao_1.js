@@ -1,43 +1,36 @@
-const a=document.getElementById("a").value;
-const b=document.getElementById("b").value;
-const c = document.getElementById("c").value;
-const d = document.getElementById("d").value;
-const e = document.getElementById("e").value;
+document.getElementById("MyForm").addEventListener("submit", function(event){
+ event.preventDefault();
+   
+ const a = Number(document.getElementById("a").value);
+ const b = Number(document.getElementById("b").value);
+ const c = Number(document.getElementById("c").value);
+ const d = Number(document.getElementById("d").value);
+ const e = Number(document.getElementById("e").value);
 
+ MAIOR_MENOR(a, b, c, d, e);
+}); 
 
 function MAIOR_MENOR(a, b, c, d, e){
-document.getElementById().addEventListener("submit"); 
+  const v = [a, b, c, d, e];
+  let maior = a;
+  let menor = a;
 
-
- const maior = a;
- const menor = 0;
-
- if(b>maior){
-   maior=b 
- }else{
-    menor = b;
+  for(let i=0; i<v.length;i++){
+   if(v[i]> maior){
+    maior = v[i]
    }
+
+   if(v[i]<menor){
+      menor = v[i]
+   }
+  }
+
+  //v.sort(
+  // (a,b) => a-b
+  //);
+
  
 
- if(c>maior){
-    maior=c
- }else{
-    menor = c;
- }
- 
-
- if(d>maior){
-    maior = d;
- }else{
-    menor = d;
- }
- 
- if(e>maior){
-  maior = e;
- }else{
-    menor = e;
- }
-
-
+ alert("O menor número digitado foi "+ menor +" e o maior foi "+ maior +".")
     
 }
