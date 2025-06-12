@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 body{
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  background-color:rgb(77, 77, 77);
 }
+
 button{
     width:25%;
     height:15%;
@@ -81,11 +81,19 @@ input{
     border-style:none;
     background-color:black;
     color:rgb(255, 255, 255);
-=======
+}
+
 body{
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  background-color:rgb(77, 77, 77);
 }
+
+label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:130%;
+}
+
+
 button{
     width:35%;
     height:15%;
@@ -165,5 +173,5 @@ input{
     background-color:black;
     color:rgb(255, 255, 255);
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
->>>>>>> master
+
 }

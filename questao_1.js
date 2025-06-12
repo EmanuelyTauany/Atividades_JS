@@ -33,9 +33,9 @@ function MAIOR_MENOR(a, b, c, d, e){
 
  alert("O menor número digitado foi "+ menor +" e o maior foi "+ maior +".")
     
-<<<<<<< HEAD
+
 }
-=======
-}
+
+
  
->>>>>>> master
+
