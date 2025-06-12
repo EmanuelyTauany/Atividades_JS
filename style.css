@@ -1,0 +1,84 @@
+body{
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ background-color:rgb(77, 77, 77);
+}
+button{
+    width:35%;
+    height:15%;
+    margin:1%;
+    padding:1%;
+    border-radius:50vw;
+    color:white;
+    border-style:none;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    font-size:3vh;
+}
+
+#MyButton1{
+   background-color:rgba(21, 34, 78, 0.541);
+}
+
+#MyButton2{
+    background-color:rgb(253, 65, 65);
+}
+
+#MyButton3{
+    background-color:rgb(90, 175, 147);
+}
+
+#MyButton4{
+    background-color:rgb(179, 216, 92);
+}
+#MyButton5{
+    background-color:rgb(44, 44, 160);
+}
+
+#MyButton6{
+    background-color:salmon;
+}
+form{
+    height:20%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:2vw;
+    padding:4%;
+    color:white;
+    margin-top:2%;
+    
+
+}
+#MyForm{
+ background-image:linear-gradient(to top,  rgb(0, 0, 0), rgb(137, 138, 189));
+}
+
+#MyForm2{
+    background-image:linear-gradient(to top, black, rgb(253, 76, 76))
+}
+
+#MyForm3{
+    background-image:linear-gradient(to top, black, rgb(121, 184, 121))
+}
+
+#MyForm4{
+    background-image:linear-gradient(to top, black, rgb(218, 218, 145))
+}
+
+#MyForm5{
+    background-image:linear-gradient(to top, black, rgb(66, 76, 211))
+}
+
+#MyForm6{
+    background-image:linear-gradient(to top, black, rgb(243, 148, 137))
+}
+input{
+    width:35%;
+    margin:2%;
+    padding:1%;
+    border-radius:2vw;
+    border-style:none;
+    background-color:black;
+    color:rgb(255, 255, 255);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
