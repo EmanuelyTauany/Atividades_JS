@@ -20,5 +20,5 @@ function LIMITES(lis, ls){
      y++
     } 
    }
-   alert("O números pares do intervalo numérico são os seguintes:\n" + pares +".\nSeu somatório é:\n" + soma_pares);
+   alert("O números pares do intervalo numérico são os seguintes:\n" + pares +".\nE seu somatório é:\n" + soma_pares);
 }
