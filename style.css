@@ -30,6 +30,7 @@ button{
 #MyButton4{
     background-color:rgb(179, 216, 92);
 }
+
 #MyButton5{
     background-color:rgb(44, 44, 160);
 }
@@ -37,6 +38,7 @@ button{
 #MyButton6{
     background-color:salmon;
 }
+
 form{
     height:20%;
     display:flex;
@@ -48,8 +50,8 @@ form{
     color:white;
     margin-top:2%;
     
-
 }
+
 #MyForm{
  background-image:linear-gradient(to top,  rgb(0, 0, 0), rgb(137, 138, 189));
 }
@@ -73,6 +75,7 @@ form{
 #MyForm6{
     background-image:linear-gradient(to top, black, rgb(243, 148, 137))
 }
+
 input{
     width:30%;
     margin:2%;
@@ -92,7 +95,6 @@ label{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:130%;
 }
-
 
 button{
     width:35%;
@@ -128,6 +130,7 @@ button{
 #MyButton6{
     background-color:salmon;
 }
+
 form{
     height:20%;
     display:flex;
@@ -138,9 +141,9 @@ form{
     padding:4%;
     color:white;
     margin-top:2%;
-    
 
 }
+
 #MyForm{
  background-image:linear-gradient(to top,  rgb(0, 0, 0), rgb(137, 138, 189));
 }
@@ -164,6 +167,7 @@ form{
 #MyForm6{
     background-image:linear-gradient(to top, black, rgb(243, 148, 137))
 }
+
 input{
     width:35%;
     margin:2%;
