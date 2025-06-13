@@ -1,5 +1,5 @@
 document.getElementById("MyForm4").addEventListener("submit", function(event){
-    event.preventDefault;
+    event.preventDefault();
     const x = Number(document.getElementById("x").value);
     const y = Number(document.getElementById("y").value);
     const z = Number(document.getElementById("z").value);
